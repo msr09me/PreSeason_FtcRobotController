@@ -11,7 +11,7 @@ package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
 
 public class Ps1Ex1 {
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         // Start your code here
 
