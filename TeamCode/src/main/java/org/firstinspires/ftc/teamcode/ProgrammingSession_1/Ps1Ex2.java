@@ -1,6 +1,8 @@
 /*
 
-Ps1Ex2: A robot runs for 10 seconds. Create a variable to store the data
+Ps1Ex2: Create a variable to store the following data –
+
+                Left motor speed is 3.5
 
  */
 
@@ -11,12 +13,12 @@ public class Ps1Ex2 {
 
     public static void main(String[] args)
     {
-        // Start your code here
+        // Start your code below
 
-        double time = 10;
+        double speed = 3.5;
 
-        // End of your code
+        // End your code above
 
-        System.out.println("Time = " + time);
+        System.out.println("speed = " + speed);
     }
 }

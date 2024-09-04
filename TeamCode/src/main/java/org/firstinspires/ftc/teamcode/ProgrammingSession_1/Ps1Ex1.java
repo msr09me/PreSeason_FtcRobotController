@@ -1,9 +1,10 @@
 /*
+    Ps1Ex1:
 
-Ps1Ex1: Create a variable to store the following data –
+        Part 1 -> Create 4 variables "name", "schoolName", "grade", and "teamName"
 
-                Left motor speed is 3.5
-
+        Part 2 -> Initialize the variables with your name, your school name, your grade (year), and
+                  the name of your FTC team
  */
 
 
@@ -13,12 +14,9 @@ public class Ps1Ex1 {
 
     public static void main(String[] args)
     {
-        // Start your code here
+        // Start your code below
 
-        double speed = 3.5;
 
-        // End of your code
-
-        System.out.println("speed = " + speed);
+        // End your code above
     }
 }

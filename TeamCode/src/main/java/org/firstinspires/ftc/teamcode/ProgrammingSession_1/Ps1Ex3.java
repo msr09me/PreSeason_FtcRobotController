@@ -9,14 +9,12 @@ package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
 
 public class Ps1Ex3 {
 
-    public static void main(String[] args)
-    {
-        // Start your code here
+    public static void main(String[] args) {
+        // Start your code below
 
-        double time = 10;
+        System.out.println("Time = ");
 
-        // End of your code
-
-        System.out.println("Time = " + time);
+        // End your code above
     }
 }
+
