@@ -12,7 +12,6 @@
         Part 3 -> Print your team name and mode in the terminal
  */
 
-
 package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
 public class Ps3Ex7 {

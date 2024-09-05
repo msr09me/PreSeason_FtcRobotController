@@ -7,7 +7,6 @@
                   the name of your FTC team
  */
 
-
 package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
 public class Ps3Ex3 {
