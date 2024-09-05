@@ -1,5 +1,5 @@
 /*
-    Ps0Ex2:
+    Ps3Ex2:
 
         Task 1 - Print the following information in the terminal
 
@@ -10,18 +10,15 @@
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_0;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps0Ex2 {
+public class Ps3Ex2 {
 
     public static void main(String[] args)
     {
         // Start your code below
 
 
-
-
-        System.out.println();
 
         // End your code above
     }

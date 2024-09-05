@@ -1,5 +1,5 @@
 /*
-    Ps1Ex1:
+    Ps3Ex3:
 
         Part 1 -> Create 4 variables "name", "schoolName", "grade", and "teamName"
 
@@ -8,9 +8,9 @@
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps1Ex1 {
+public class Ps3Ex3 {
 
     public static void main(String[] args)
     {

@@ -1,6 +1,6 @@
 /*
 
-Ps1Ex4:
+Ps3Ex6:
 
     Part 1 -> create three variables named "time", "speed", and "distance"
 
@@ -16,15 +16,15 @@ Ps1Ex4:
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps1Ex4 {
+public class Ps3Ex6 {
 
     public static void main(String[] args)
     {
         // Start your code below
 
-        System.out.println();
+
 
         // End your code above
     }

@@ -1,5 +1,5 @@
 /*
-    Ps1Ex5:
+    Ps3Ex7:
 
         Part 1: Create a variable to store your team name
 
@@ -13,9 +13,9 @@
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps1Ex5 {
+public class Ps3Ex7 {
 
     public static void main(String[] args)
     {

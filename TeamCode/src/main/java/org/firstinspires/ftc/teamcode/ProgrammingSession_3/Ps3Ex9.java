@@ -38,9 +38,9 @@
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps1Ex7 {
+public class Ps3Ex9 {
 
     public static void main(String[] args)
     {

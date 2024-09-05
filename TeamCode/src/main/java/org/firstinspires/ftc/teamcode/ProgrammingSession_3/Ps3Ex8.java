@@ -1,5 +1,5 @@
 /*
-    Ps1Ex6:
+    Ps3Ex8:
 
         Part 1 ->
 
@@ -41,9 +41,9 @@
  */
 
 
-package org.firstinspires.ftc.teamcode.ProgrammingSession_1;
+package org.firstinspires.ftc.teamcode.ProgrammingSession_3;
 
-public class Ps1Ex6 {
+public class Ps3Ex8 {
 
     public static void main(String[] args)
     {
