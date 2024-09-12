@@ -1,50 +1,17 @@
 /*
-    Part 1 -> We know that,
-                                wheel speed = distance / time
+    Ps4Ex1: Our robot ran at a speed of 3.5 in/second for 8 seconds
 
-               Task 1 - Create 3 variables for 1) wheel speed 2) distance 3) time
+            We know that, distance = speed * time
 
-               Task 2 - If our robot travelled 15 ft in 8 seconds, calculate the wheel speed
+            Task 1: Create three variables "speed", "time", and "distance"
 
-    Part 2 -> we know that,
-                                motor speed = wheel speed * gear ratio
+            Task 2: Store the above data in the variables created in task 1
 
-                                motor angular velocity = motor speed * 0.10472
+            Task 3: Calculate the distance our robot travelled and
+                    store the data in the variable created in task 1
 
-               Our robot is a 4 wheeled robot. And we have 4 DC motors for 4 wheels.
+            Task 4: Print the variables in the terminal
 
-               The gear ratios for 4 motors are following -
-
-                    1) Left Front Wheel Motor = 4
-                    2) Left Back Wheel Motor = 3
-                    3) Right Front Wheel Motor = 5
-                    6) Right Back Wheel Motor = 4
-
-               Task 1 - Create 3 variables for -
-
-                            1) motor speed 2) wheel speed
-
-               Task 2 - Create 4 variables to store the gear ratio of four wheel motors
-
-               Task 3 - Create 4 variables to calculate the motor speed of 4 wheel motors
-
-               Task 4 - Create 4 variables to calculate the motor angular velocity of 4 wheel motors
-
-
-      Part 3 -> We know that,
-                                motor torque = dc motor torque constant * motor current
-
-                                motor power = motor torque * motor angular velocity
-
-                Task 1 - Create 4 variables for DC motor torque constant of 4 wheel motors
-
-                Task 2 - Create 4 variables for motor torque of 4 wheel motors
-
-                Task 3 - Create 4 variables for motor power of 4 wheel motors
-
-                Task 4 - Create a variable for motor current and initialize it with the value 1.2
-
-                Task 5 - Calculate the motor power of all 4 wheel motors
  */
 
 
@@ -55,7 +22,6 @@ public class Ps4Ex1 {
     public static void main(String[] args)
     {
         // Start your code below
-
 
 
 
