@@ -21,12 +21,34 @@ public class Ps4Ex8 {
 
     // Create the function below for task 1
 
+    static double calculateSpeed(double distance, double time)
+    {
+        double speed = distance / time;
+
+        return speed;
+    }
 
 
     public static void main(String[] args)
     {
         // Start your code below for task 2, 3, 4, and 5
 
+        // Task 2
+
+        double distance = 8;
+        double time = 3.5;
+
+        // Task 3
+
+        double speed;
+
+        // Task 4
+
+        speed = calculateSpeed(distance, time);
+
+        // Task 5
+
+        System.out.println("Speed: " + speed);
 
         // End your code above
     }

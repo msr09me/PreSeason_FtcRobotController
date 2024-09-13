@@ -26,7 +26,24 @@ public class Ps4Ex4 {
     {
         // Start your code below
 
+        // Task 1
 
+        double motorAngularVelocity = 12.3025;
+
+        double torqueConstant = 0.02;
+        double current = 0.9;
+
+        double motorTorque;
+        double motorPower;
+
+        // Task 2
+
+        motorTorque = torqueConstant * current;
+        motorPower = motorTorque * motorAngularVelocity;
+
+        // Task 3
+
+        System.out.println(motorPower);
 
 
         // End your code above

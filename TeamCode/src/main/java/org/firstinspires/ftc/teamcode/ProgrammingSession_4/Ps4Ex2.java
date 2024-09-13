@@ -26,6 +26,30 @@ public class Ps4Ex2 {
     {
         // Start your code below
 
+        // Task 1
+
+        double wheelSpeed;
+        double distance;
+        double time;
+        double motorSpeed;
+        double gearRatio;
+        double motorAngularVelocity;
+
+        // Task 2
+
+        distance = 235;
+        time = 8;
+        gearRatio = 4;
+
+        // Task 3
+
+        wheelSpeed = distance / time;
+        motorSpeed = wheelSpeed * gearRatio;
+        motorAngularVelocity = motorSpeed * 0.1047;
+
+        // Task 4
+
+        System.out.println(motorAngularVelocity);
 
         // End your code above
     }

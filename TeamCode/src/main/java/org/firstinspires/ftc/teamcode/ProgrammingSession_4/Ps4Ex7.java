@@ -23,10 +23,35 @@ public class Ps4Ex7 {
 
     // Create the function below for task 1
 
+    static double calculate_resistance(double voltage, double current)
+    {
+        double resistance;
+
+        resistance = voltage / current;
+
+        return resistance;
+    }
 
     public static void main(String[] args)
     {
         // Start your code below for task 2, 3, 4, and 5
+
+        // Task 2
+
+        double voltage = 12.1;
+        double current = 2.3;
+
+        // Task 3
+
+        double resistance;
+
+        // Task 4
+
+        resistance = calculate_resistance(voltage, current);
+
+        // Task 5
+
+        System.out.println("Resistance: " + resistance);
 
 
         // End your code above

@@ -35,7 +35,6 @@
 
  */
 
-
 package org.firstinspires.ftc.teamcode.ProgrammingSession_4;
 
 public class Ps4Ex5 {
@@ -44,6 +43,81 @@ public class Ps4Ex5 {
     {
         // Start your code below
 
+        // Task 1
+
+        double gearRatioLF = 4.1;                       // LF = Left front
+        double gearRatioLB = 4.05;                      // LB = Left back
+        double gearRatioRF = 3.75;                      // RF = Right front
+        double gearRatioRB = 4.15;                      // RB = Right back
+
+        double torqueConstantLF = 0.2;
+        double torqueConstantLB = 0.18;
+        double torqueConstantRF = 0.21;
+        double torqueConstantRB = 0.17;
+
+        // Task 2
+
+        double wheelSpeed = 3.0;
+        double current = 1.3;
+
+        // Task 3
+
+        double motorSpeedLF;
+        double motorSpeedLB;
+        double motorSpeedRF;
+        double motorSpeedRB;
+
+        double motorAngularVelocityLF;
+        double motorAngularVelocityLB;
+        double motorAngularVelocityRF;
+        double motorAngularVelocityRB;
+
+        double motorTorqueLF;
+        double motorTorqueLB;
+        double motorTorqueRF;
+        double motorTorqueRB;
+
+        double motorPowerLF;
+        double motorPowerLB;
+        double motorPowerRF;
+        double motorPowerRB;
+
+        // Task 4
+
+        // Calculating motor power for Left Front motor
+
+        motorSpeedLF = wheelSpeed * gearRatioLF;
+        motorAngularVelocityLF = motorSpeedLF * 0.1047;
+        motorTorqueLF = torqueConstantLF * current;
+        motorPowerLF = motorTorqueLF * motorAngularVelocityLF;
+
+        // Calculating motor power for Left bACK motor
+
+        motorSpeedLB = wheelSpeed * gearRatioLB;
+        motorAngularVelocityLB = motorSpeedLB * 0.1047;
+        motorTorqueLB = torqueConstantLB * current;
+        motorPowerLB = motorTorqueLB * motorAngularVelocityLB;
+
+        // Calculating motor power for Right Front motor
+
+        motorSpeedRF = wheelSpeed * gearRatioRF;
+        motorAngularVelocityRF = motorSpeedRF * 0.1047;
+        motorTorqueRF = torqueConstantRF * current;
+        motorPowerRF = motorTorqueRF * motorAngularVelocityRF;
+
+        // Calculating motor power for Right Back motor
+
+        motorSpeedRB = wheelSpeed * gearRatioRB;
+        motorAngularVelocityRB = motorSpeedRB * 0.1047;
+        motorTorqueRB = torqueConstantRB * current;
+        motorPowerRB = motorTorqueRB * motorAngularVelocityRB;
+
+        // Task 5
+
+        System.out.println("Left front motor power: " + motorPowerLF);
+        System.out.println("Left back motor power: " + motorPowerLB);
+        System.out.println("Right front motor power: " + motorPowerRF);
+        System.out.println("Right back motor power: " + motorPowerRB);
 
         // End your code above
     }

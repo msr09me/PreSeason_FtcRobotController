@@ -36,6 +36,51 @@ public class Ps4Ex3 {
     {
         // Start your code below
 
+        // Task 1
+
+        double grFrontLeft = 4;                     // gr = gear ratio
+        double grFrontRight = 3.75;
+        double grBackLeft = 4.05;
+        double grBackRight = 4.15;
+
+        // Task 2
+
+        double motorSpeedFrontLeft;
+        double motorSpeedFrontRight;
+        double motorSpeedBackLeft;
+        double motorSpeedBackRight;
+
+        // Task 3
+
+        double mavFrontLeft;                        // mav = motor angular velocity
+        double mavFrontRight;
+        double mavBackLeft;
+        double mavBackRight;
+
+        // Task 4
+
+        double distance = 135;
+        double time = 10;
+        double wheelSpeed = distance / time;
+
+        // Task 5
+
+        motorSpeedFrontLeft = wheelSpeed * grFrontLeft;
+        motorSpeedFrontRight = wheelSpeed * grFrontRight;
+        motorSpeedBackLeft = wheelSpeed * grBackLeft;
+        motorSpeedBackRight = wheelSpeed * grBackRight;
+
+        mavFrontLeft = motorSpeedFrontLeft * 0.1047;
+        mavFrontRight = motorSpeedFrontRight * 0.1047;
+        mavBackLeft = motorSpeedBackLeft * 0.1047;
+        mavBackRight = motorSpeedBackRight * 0.1047;
+
+        // Task 6
+
+        System.out.println("Front left motor angular velocity: " + mavFrontLeft);
+        System.out.println("Front right motor angular velocity: " + mavFrontRight);
+        System.out.println("Back left motor angular velocity: " + mavBackLeft);
+        System.out.println("Back right motor angular velocity: " + mavBackRight);
 
 
         // End your code above

@@ -23,7 +23,24 @@ public class Ps4Ex1 {
     {
         // Start your code below
 
+        // Task 1
 
+        double speed;
+        double time;
+        double distance;
+
+        // Task 2
+
+        speed = 3;
+        time = 8;
+
+        // Task 3
+
+        distance = speed * time;
+
+        // Task 4
+
+        System.out.println(distance);
 
 
         // End your code above
