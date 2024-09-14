@@ -1,21 +1,21 @@
+// MyDcMotor.java
 package org.firstinspires.ftc.teamcode.ProgrammingSession_5;
 
 public class MyDcMotor {
+    private int power;
 
-    private double torqueConstant = 0.19;
+    // Constructor
+    public MyDcMotor() {
+        this.power = 0;  // Initialize with default power level
+    }
 
-    public double voltage;
-    public double current;
-    public double angularVelocity;
-    public double efficiency;
+    // Method to set power level
+    public void setPower(int power) {
+        this.power = power;
+    }
 
-    public double calculateEfficiency(double voltage, double current, double angularVelocity)
-    {
-        double inputPower = voltage * current;
-        double torque = torqueConstant * current;
-        double outputPower = torque * angularVelocity;
-        double efficiency = (outputPower / inputPower) * 100;
-
-        return efficiency;
+    // Method to get power level
+    public int getPower() {
+        return this.power;
     }
 }
