@@ -34,7 +34,7 @@ public class Ps6Ex1 {
         public double current = 0.0;
         public double power = 0.0;
 
-        public double calculateInputPower(double voltage, double current)
+        public double calculateInputPower()
         {
             power = voltage * current;
 
@@ -54,7 +54,7 @@ public class Ps6Ex1 {
         dcMotor1.voltage = 11.0;
         dcMotor1.current = 0.83;
 
-        dcMotor1.calculateInputPower(dcMotor1.voltage, dcMotor1.current);
+        dcMotor1.calculateInputPower();
 
         System.out.println(dcMotor1.power);
     }
