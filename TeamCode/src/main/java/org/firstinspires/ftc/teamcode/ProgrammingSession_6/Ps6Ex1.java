@@ -30,7 +30,7 @@ public class Ps6Ex1 {
 
         // Fields
 
-        public double voltage = 0.0;
+        public double voltage = 10.0;
         public double current = 0.0;
         public double power = 0.0;
 
@@ -43,11 +43,18 @@ public class Ps6Ex1 {
     }
     public static void main(String[] args)
     {
+        // Part 2: Using a class
+
+        // Task 1: Creating an object
+
         MyDcMotor dcMotor1 = new MyDcMotor();
 
+        // Task 2: Storing data
+
+        dcMotor1.voltage = 11.0;
         dcMotor1.current = 0.83;
-        dcMotor1.voltage = 11.9;
-        dcMotor1.power = dcMotor1.calculateInputPower(dcMotor1.voltage, dcMotor1.current);
+
+        dcMotor1.calculateInputPower(dcMotor1.voltage, dcMotor1.current);
 
         System.out.println(dcMotor1.power);
     }
