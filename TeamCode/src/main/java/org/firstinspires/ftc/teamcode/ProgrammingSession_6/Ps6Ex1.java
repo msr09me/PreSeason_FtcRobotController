@@ -59,5 +59,3 @@ public class Ps6Ex1 {
         System.out.println(dcMotor1.power);
     }
 }
-
-
