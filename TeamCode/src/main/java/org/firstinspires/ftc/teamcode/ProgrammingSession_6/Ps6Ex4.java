@@ -41,7 +41,7 @@ public class Ps6Ex4 {
 
         // Task 3: Creating method to calculate resistance
 
-        public double calculate_resistance(double voltage, double current)
+        public double calculate_resistance()
         {
             resistance = voltage / current;
 
@@ -64,7 +64,7 @@ public class Ps6Ex4 {
 
         // Task 3: Using calculateResistance method to calculate resistance
 
-        dcMotor1.calculate_resistance(dcMotor1.voltage, dcMotor1.current);
+        dcMotor1.calculate_resistance();
 
         // Task 4: Printing result of task 3
 

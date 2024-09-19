@@ -53,7 +53,7 @@ public class Ps6Ex2 {
 
         // Task 3: Creating method
 
-        public double calculateMotorOutputPower(double torque, double angularVelocity)
+        public double calculateMotorOutputPower()
         {
             outputPower = torque * angularVelocity;
 
@@ -94,10 +94,10 @@ public class Ps6Ex2 {
 
         // Task 3: Calculate motor output for 4 wheel
 
-        leftFrontWheel.calculateMotorOutputPower(leftFrontWheel.torque, leftFrontWheel.angularVelocity);
-        leftRearWheel.calculateMotorOutputPower(leftRearWheel.torque, leftRearWheel.angularVelocity);
-        rightFrontWheel.calculateMotorOutputPower(rightFrontWheel.torque, rightFrontWheel.angularVelocity);
-        rightRearWheel.calculateMotorOutputPower(rightRearWheel.torque, rightRearWheel.angularVelocity);
+        leftFrontWheel.calculateMotorOutputPower();
+        leftRearWheel.calculateMotorOutputPower();
+        rightFrontWheel.calculateMotorOutputPower();
+        rightRearWheel.calculateMotorOutputPower();
 
         // Task 4: Print the result in the terminal
 

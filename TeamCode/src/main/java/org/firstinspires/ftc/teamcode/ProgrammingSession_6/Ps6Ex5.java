@@ -39,7 +39,7 @@ public class Ps6Ex5 {
 
         // Task 3: Creating method to calculate speed
 
-        public double calculateSpeed(double distance, double time)
+        public double calculateSpeed()
         {
             speed = distance / time;
 
@@ -62,7 +62,7 @@ public class Ps6Ex5 {
 
         // Task 3: Using calculateResistance method to calculate resistance
 
-        dcMotor1.calculateSpeed(dcMotor1.distance, dcMotor1.time);
+        dcMotor1.calculateSpeed();
 
         // Task 4: Printing result of task 3
 
